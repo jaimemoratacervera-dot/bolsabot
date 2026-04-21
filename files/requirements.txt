@@ -1,0 +1,26 @@
+# ── Telegram bot framework (sync/v13 — stable for single-process Railway) ──
+python-telegram-bot==13.15
+
+# ── Scheduler ──────────────────────────────────────────────────────────────
+APScheduler==3.10.4
+pytz==2024.1
+
+# ── Finance data ───────────────────────────────────────────────────────────
+yfinance==0.2.40
+pandas==2.2.2
+
+# ── HTTP / scraping ─────────────────────────────────────────────────────────
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# ── Environment / config ────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── AI summaries (optional — bot works without an OpenAI key) ───────────────
+openai==1.35.3
+
+# ── Needed by yfinance / pandas ─────────────────────────────────────────────
+numpy==1.26.4
+multitasking==0.0.11
+peewee==3.17.6
